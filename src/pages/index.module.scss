@@ -1,0 +1,28 @@
+.container {
+  border: 2px dashed rgb(152, 217, 243);
+  height: 100px;
+  width: 400px;
+  margin: auto;
+  margin-top: 200px;
+  border-radius: 8px;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  &:hover {
+    cursor: pointer;
+  }
+  transition: border-color 250ms;
+  &.active {
+    border-color: blue;
+  }
+}
+
+.input {
+  display: none;
+}
+
+.fileList {
+  width: 400px;
+  margin: auto;
+  margin-top: 20px;
+}
